@@ -10,7 +10,7 @@
 
 *,
 *::before,
-*::after { 
+*::after {
   box-sizing: border-box;
 }
 html {
@@ -40,6 +40,7 @@ img {
 }
 .cards {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
